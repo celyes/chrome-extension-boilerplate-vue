@@ -6,6 +6,6 @@ chrome.runtime.onInstalled.addListener(details => {
 
     // this executes when the extension has been uninstalled...
     if (details.reason === chrome.runtime.OnInstalledReason.INSTALL) {
-        chrome.runtime.setUninstallURL('https://celyes.dev');
+        chrome.runtime.setUninstallURL('https://github.com/celyes');
     }
 })

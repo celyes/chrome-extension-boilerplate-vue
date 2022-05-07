@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import {  onMounted } from 'vue'
+import { onMounted } from 'vue'
 
 onMounted(() => {
     console.log('Example component mounted...')

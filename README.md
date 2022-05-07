@@ -1,4 +1,4 @@
-# yobi-chrome
+# Chrome Vue extension boilerplate
 Build a Chrome extension with Vue.js and Webpack (via Laravel mix)
 
 ## Compiling project files

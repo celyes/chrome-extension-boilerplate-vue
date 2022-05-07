@@ -1,0 +1,11 @@
+* text=auto
+
+*.js text
+*.png binary
+*.jpg binary
+
+yarn.lock -diff
+package-lock.json -diff
+
+src/assets/js/*.js linguist-vendored
+src/assets/css/*.css linguist-vendored

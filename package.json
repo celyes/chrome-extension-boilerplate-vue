@@ -1,0 +1,41 @@
+{
+  "name": "yobi-chrome",
+  "version": "0.1.0",
+  "description": "Yobi chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "npm run local",
+    "prod": "npm run production",
+    "watch": "npm run local -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.yib.io/yobi/integrations/yobi-chrome.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "yobi"
+  ],
+  "author": "Ilyes chouia",
+  "license": "PRIVATE",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "lodash": "^4.17.21",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.180",
+    "@types/webpack-env": "^1.16.3",
+    "@vue/compiler-sfc": "^3.2.32",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.43",
+    "types": "^0.1.1",
+    "vue": "^3.2.32",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

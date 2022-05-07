@@ -1,0 +1,3 @@
+window.onload = function() {
+    // do something with your page...
+}

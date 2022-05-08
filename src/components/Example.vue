@@ -1,5 +1,7 @@
 <template>
-    <h1>Build something awesome!</h1>
+    <div>
+        <h1>Build something awesome!</h1>
+    </div>
 </template>
 
 <script setup>
@@ -9,3 +11,9 @@ onMounted(() => {
     console.log('Example component mounted...')
 })
 </script>
+
+<style scoped>
+div {
+    width: 400px;
+}
+</style>

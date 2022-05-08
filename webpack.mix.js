@@ -7,9 +7,11 @@ mix.alias({
 });
 // compile css files
 mix.css('src/assets/css/style.css', 'dist/assets/css')
+    .css('src/assets/css/popup.css', 'dist/assets/css')
 
 // compile javascript files
 mix.js('src/app.js', 'dist')
+    .js('src/popup.js', 'dist')
     .vue()
 
 // copy static files,. views and  

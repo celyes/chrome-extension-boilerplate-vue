@@ -1,4 +1,4 @@
-# Chrome Vue extension boilerplate
+# Chrome extension boilerplate Vue
 Build a Chrome extension with Vue.js and Webpack (via Laravel mix)
 
 ## Compiling project files
